@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+
+    <!-- lib -->
+    <link href="css/w3.css" rel="stylesheet" type="text/css"  />
+    <script src="https://use.fontawesome.com/0f36b56612.js"></script>
+    <!-- css -->
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/settings.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- header -->
+        <div class="newGame_header_container">
+          <div class="" >
+            <div class="w3-col s4" >
+
+                <a><i class="fa fa-arrow-left fa-2x position-vertical-center back-button" onclick="location.href='/'" style="cursor:pointer"></i></a>
+
+            </div>
+            <div class="w3-col s4">
+              <h1 class="newGame_header_title">Taboo</h1>
+            </div>
+            <div class="w3-col s4">
+              <a><span class="hide">hidden</span></a>
+            </div>
+          </div>
+          </div>
+
+  <div class="settings-container">
+
+    <div class="settings-card w3-card-4 w3-white">
+
+        <div class="heading-container">
+          <div class="w3-row">
+            <div class="w3-col s12 w3-center">
+              <div class="w3-orange w3-center">
+                <div>
+                  <i class="fa fa-wrench fa-5x main_menu_card_content_icon icon_white" aria-hidden="true"></i>
+                  <h2 class="main_menu_card_content_title title_white">SettiNGs</h2>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="w3-row item1">
+            <!-- option3 -->
+            <div class="w3-half move-right">
+              <h4 class="settings-items">TiMe</h4>
+            </div>
+            <div class="w3-half move-left">
+              <input class="w3-input w3-border input-center input-items" type="text" id="maximum_time_id" placeholder="..."/>
+            </div>
+        </div>
+
+        <div class="w3-row item2">
+            <!-- option3 -->
+            <div class="w3-half move-right">
+              <h4 class="settings-items">PaSs CoUnt</h4>
+            </div>
+            <div class="w3-half move-left">
+              <input class="w3-input w3-border input-center input-items" type="text" id="pass_number_id" placeholder="..."/>
+            </div>
+        </div>
+
+        <div class="w3-row item3">
+            <!-- option1 -->
+            <div class="w3-half move-right">
+              <h4 class="settings-items">TaBoO</h4>
+            </div>
+            <div class="w3-half move-left">
+              <input class="w3-input w3-border input-center input-items" type="text" id="taboo_points_id" placeholder="..."/>
+            </div>
+        </div>
+
+        <div class="w3-row item4">
+            <!-- option4 -->
+            <div class="w3-half move-right">
+              <h4 class="settings-items">WiNNiNG PoiNts</h4>
+            </div>
+            <div class="w3-half move-left">
+              <input class="w3-input w3-border input-center input-items" type="text" id="maximum_target_id" placeholder="..."/>
+            </div>
+        </div>
+
+        <div class="w3-row item5">
+            <!-- option2 -->
+            <div class="w3-half move-right">
+              <h4 class="settings-items">Correct points</h4>
+            </div>
+            <div class="w3-half move-left">
+              <input class="w3-input w3-border input-center input-items" type="text" id="correct_points_id" placeholder="..."/>
+            </div>
+        </div>
+
+        <div class="button-container">
+
+            <button class="w3-btn button-props w3-orange  w3-large" onclick="save()">
+              <span class="button-props-content">Save</span>
+            </button>
+
+        </div>
+
+
+    </div>
+
+  </div>
+</div>
+
+</br></br>
+      <!-- modal for ERROR-->
+      <div id="caution-modal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-8">
+          <header class="w3-container w3-black">
+            <span onclick="document.getElementById('caution-modal').style.display='none'"
+            class="w3-closebtn" >&times;</span>
+            <h2 class="modal-title">Oops! something went wrong</h2>
+          </header>
+          <div class="w3-container">
+            <h5 class="modal-message">Make sure all entered values are only NUMBERS</h5>
+
+          </div>
+
+            </div>
+        </div>
+
+        <!-- modal for EMPTY-->
+        <div id="empty-modal" class="w3-modal">
+          <div class="w3-modal-content w3-animate-top w3-card-8">
+            <header class="w3-container w3-black">
+              <span onclick="document.getElementById('empty-modal').style.display='none'"
+              class="w3-closebtn" >&times;</span>
+              <h2 class="modal-title">Alert!</h2>
+            </header>
+            <div class="w3-container">
+              <h5 class="modal-message">Make sure fields are not EMPTY</h5>
+
+            </div>
+
+              </div>
+          </div>
+
+
+
+      <!-- modal for SAVING -->
+      <div id="saving-modal" class="w3-modal">
+        <div class="w3-modal-content saving-modal-props w3-animate-top w3-card-8">
+
+            <h5 class="modal-message"><i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i>saving...</h5>
+
+
+        </div>
+      </div>
+
+  <script src="settings.js"></script>
+  </body>
+</html>

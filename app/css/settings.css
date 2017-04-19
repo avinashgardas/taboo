@@ -1,0 +1,178 @@
+.newGame_header_container{
+  display: block;
+  margin:auto;
+
+  text-align: center;
+
+}
+.newGame_header_title{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 60px;
+}
+
+.play-button{
+  border: 5px solid #FF9800;
+  border-radius:50%;
+  padding: 15px;
+  background-color: white;
+
+    transition:all 0.2s ease;
+}
+
+.position-vertical-center{
+    transform: translateY(20%);
+}
+.pause-button,.back-button{
+  border: 5px solid white;
+  border-radius:50%;
+  padding: 15px;
+  background-color: #F44336;
+  box-shadow: inset 0 0 0 5px #EF9A9A;
+  transition:all 0.2s ease;
+  color:white;
+}
+
+.pause-button:hover,.back-button:hover{
+    box-shadow: inset 0 0 0 -5px #F44336;
+    transition:all 0.9s ease;
+}
+
+.pause-button:active,.back-button:active{
+    transition:all 0.1s ease;
+    background-color: #D32F2F;
+    border:5px solid rgba(255,255,255,0.9);
+    color:white;
+}
+
+.newGame_taboo_header_other{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 70px;
+}
+
+.link{
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.taboo_header_other{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 90px;
+}
+
+.main_menu_card_content_icon{
+  margin: 8px;
+  padding: 10px;
+}
+
+.main_menu_card_content_title{
+  padding: 5px;
+  font-family: 'Baloo Tamma', cursive;
+}
+
+.icon_white,.title_white{
+  color:white;
+}
+
+/* settings css pure */
+.settings-container{
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  position: relative;
+  top: 40%; left: 0%; bottom: 0%; right: 0%;
+}
+
+.settings-card{
+  padding-bottom:10px;
+}
+
+
+
+.move-right{
+  text-align: center;
+
+}
+
+.move-left{
+  display:block;
+margin: auto;
+width:30%;
+
+}
+
+.settings-items{
+    font-family: 'Baloo Tamma', cursive;
+    font-size: 23px;
+}
+
+.input-center{
+  text-align: center;
+}
+
+.input-items{
+font-family: 'Baloo Tamma', cursive;
+font-size: 24px;
+}
+
+
+
+.button-props-content{
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 22px;
+  color:white;
+}
+
+.button-container{
+  margin-top:10px;
+  margin-bottom:6px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-title{
+  text-align:center;
+    font-family: 'Slabo 27px', serif;
+}
+
+.modal-message{
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+}
+
+.w3-closebtn{
+  color:#fff;
+}
+
+.w3-closebtn:hover{
+  color:#e0e0e0;
+}
+
+.saving-modal-props{
+  width:50%;
+  padding: 20px;
+}
+
+
+.item1{
+  padding-bottom:8px;
+}
+
+.item2{
+  padding-bottom:8px;
+}
+
+.item3{
+  padding-bottom:8px;
+}
+
+.item4{
+  padding-bottom:8px;
+}
+
+.item5{
+  padding-bottom:8px;
+}

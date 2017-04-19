@@ -1,0 +1,146 @@
+.newGame_header_container{
+  display: block;
+  margin:auto;
+
+  text-align: center;
+
+}
+.newGame_header_title{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 50px;
+}
+
+.play-button{
+  border: 5px solid #F44336;
+  border-radius:50%;
+  padding: 15px;
+  background-color: white;
+
+    transition:all 0.2s ease;
+}
+
+.position-vertical-center{
+    transform: translateY(20%);
+}
+.pause-button,.back-button{
+  border: 5px solid white;
+  border-radius:50%;
+  padding: 15px;
+  background-color: #F44336;
+  box-shadow: inset 0 0 0 5px #EF9A9A;
+    transition:all 0.2s ease;
+    color:white;
+}
+
+.pause-button:hover,.back-button:hover{
+    box-shadow: inset 0 0 0 -5px #F44336;
+    transition:all 0.9s ease;
+}
+
+.pause-button:active,.back-button:active{
+    transition:all 0.1s ease;
+    background-color: #D32F2F;
+    border:5px solid rgba(255,255,255,0.9);
+    color:white;
+}
+
+.newGame_taboo_header_other{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 70px;
+}
+
+.main_menu_card_content_icon{
+  margin: 8px;
+  padding: 10px;
+}
+
+.word_font{
+  font-family: 'Baloo Tamma', cursive;
+}
+.word_time{
+
+  font-size: 50px;
+}
+
+.word_present_team{
+  font-size: 35px;
+}
+
+.word_score{
+  font-size: 35px;
+}
+
+.icon_white,.title_white{
+  color:white;
+}
+
+/*  */
+.word-container{
+  width: 50%;
+
+  overflow: auto;
+  margin: auto;
+  position: relative;
+
+}
+
+.words-card{
+  display: block;
+  margin:auto;
+  width:80%;
+  text-align: center;
+}
+
+.word_heading{
+  font-size: 35px;
+  background-color:#B71C1C;
+  color:white;
+}
+.word_prohibited{
+  font-size: 30px;
+}
+
+.word_heading_admin_viewWords{
+  font-size: 25px;
+  background-color:#B71C1C;
+  color:white;
+}
+.word_prohibited_admin_viewWords{
+  font-size: 20px;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 0 50px 200px;
+  border-color: transparent transparent transparent #007bff;
+}
+
+.buttons-container{
+  display: block;
+  margin:auto;
+  width:80%;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.wrong{
+  background-color:#F44336;
+  padding: 12px;
+}
+
+.correct{
+  background-color:#FF9800;
+  padding: 12px;
+}
+
+.pass{
+  background-color:#673AB7;
+  padding: 12px;
+}
+
+/* react modal */

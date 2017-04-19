@@ -1,0 +1,88 @@
+.taboo_header_other{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 90px;
+}
+
+.final_font{
+  font-family: 'Baloo Tamma', cursive;
+
+}
+
+.final_summary_title{
+  font-size: 40px;
+}
+
+.final_score{
+  font-size: 35px;
+}
+
+.icon_white,.title_white{
+  color:white;
+}
+
+.final-container{
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  position: relative;;
+  margin-top: 35px;
+  color:white;
+}
+
+.final-winner,.final-card{
+  display: block;
+  margin:auto;
+  width:90%;
+  text-align: center;
+}
+
+.final-winner{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.final-card{
+  padding-top: 8px;
+  padding-bottom: 16px;
+  background-color:#00BCD4;
+}
+
+.final_summary_title{
+  padding:8px;
+}
+
+.final-score-card{
+  text-align:center;
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 25px;
+}
+
+.final-row-1-border{
+  border-bottom:6px solid #CDDC39;
+}
+
+.final-row-1-col-2-border, .final-row-1-col-1-border{
+  border-left:6px solid #CDDC39;
+}
+
+.final-row-2-col-2-border,.final-row-2-col-1-border{
+  border-left:6px solid #CDDC39;
+  border-bottom:6px solid #CDDC39;
+}
+
+.final-row-2-col-0-border{
+  border-bottom:6px solid #CDDC39;
+}
+
+.continue-button{
+  margin-top: 18px;
+}
+
+.continue-button-props{
+  background-color: #CDDC39;
+}
+
+.button-font-size{
+  font-size: 26px;
+}

@@ -1,0 +1,81 @@
+.visibility-hidden{
+  visibility: hidden;
+}
+.visibility-visible{
+  visibility: visible;;
+}
+
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  text-decoration: none;
+}
+
+.cursor-pointer{
+  cursor:pointer;
+}
+
+.main_menu_container{
+  display: block;
+  margin:auto;
+  width:50%;
+  text-align: center;
+}
+
+.main_menu_card_1{
+  border-left:8px solid white;
+  border-top:8px solid white;
+  margin-right: 8px;
+}
+
+.main_menu_card_2{
+
+  border-top:8px solid white;
+  border-right:8px solid white;
+  margin-left: 8px;
+}
+
+.main_menu_card_3{
+  border-left:8px solid white;
+  border-bottom:8px solid white;
+  margin-right: 8px;
+}
+
+.main_menu_card_4{
+  border-right:8px solid white;
+  border-bottom:8px solid white;
+  margin-left: 8px;
+}
+
+.main_menu_card_5{
+  border:8px solid white;
+  margin-top:18px;
+  margin-bottom:8px;
+}
+
+.icon_white,.title_white{
+  color:white;
+}
+
+.main_menu_card_content_icon{
+  margin: 8px;
+  padding: 20px;
+}
+
+.main_menu_card_content_title{
+  padding: 8px;
+  font-family: 'Baloo Tamma', cursive;
+  margin:20px;
+}
+
+.main_menu_card_content_icon_admin{
+  margin: 4px;
+  padding: 4px;
+}
+
+.main_menu_card_content_title_admin{
+  padding: 4px;
+  font-family: 'Baloo Tamma', cursive;
+  margin:4px;
+}

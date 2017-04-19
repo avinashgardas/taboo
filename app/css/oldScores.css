@@ -1,0 +1,122 @@
+.taboo_header_other{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 90px;
+}
+
+.old_font{
+  font-family: 'Baloo Tamma', cursive;
+}
+
+.old_summary_title{
+  font-size: 40px;
+}
+
+.old_score{
+  font-size: 35px;
+}
+
+.icon_white,.title_white{
+  color:white;
+}
+
+.old-container{
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  position: relative;
+  top: 40%; left: 0; bottom: 0; right: 0;
+
+  color:white;
+}
+
+.old-winner,.old-card{
+  display: block;
+  margin:auto;
+  width:90%;
+  text-align: center;
+}
+
+.old-winner{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.old-card{
+  padding-top: 8px;
+  padding-bottom: 16px;
+  background-color:#00BCD4;
+}
+
+.old_summary_title{
+  padding:8px;
+}
+
+.old-card-props{
+  text-align:center;
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 25px;
+}
+
+.old-row-1-border{
+  border-bottom:6px solid #CDDC39;
+}
+
+.old-row-1-col-2-border, .old-row-1-col-1-border{
+  border-left:6px solid #CDDC39;
+}
+
+.old-row-2-col-2-border,.old-row-2-col-1-border{
+  border-left:6px solid #CDDC39;
+  border-bottom:6px solid #CDDC39;
+}
+
+.old-row-2-col-0-border{
+  border-bottom:6px solid #CDDC39;
+}
+
+.continue-button{
+  margin-top: 18px;
+}
+
+.continue-button-props{
+  background-color: #CDDC39;
+}
+
+.button-font-size{
+  font-size: 26px;
+}
+
+.old-row-1{
+  border-bottom:6px solid #CDDC39;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.old-row-1-col-3{
+  border-left:6px solid #CDDC39;
+}
+
+.old-li-row{
+  border-bottom: 6px solid #CDDC39;margin-left:8px;margin-right:8px;
+}
+
+.old-li-row-span1{
+  float:left;
+}
+
+.old-li-row-span2{
+  padding-right:5px;
+}
+
+.old-li-row-span3{
+  border-left:6px solid #CDDC39;padding-left:10px;
+}
+
+.old-li-row-span4{
+  float:right;margin-right:12px;
+}
+
+.scores_title{
+  font-size:30px;
+}

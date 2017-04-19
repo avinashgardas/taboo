@@ -1,0 +1,78 @@
+body{
+  background-image: url('../img/wood4.png');
+}
+
+.taboo_header_container{
+  display: block;
+  margin:auto;
+  width:50%;
+  text-align: center;
+}
+
+.taboo_header{
+  /*font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 90px;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  padding-bottom:10px;
+}
+
+.header-blur {
+    position: fixed;
+    z-index: 2;
+    background-image:url('../img/wood4.png');
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.content{
+  margin-top:153px;
+}
+
+.error_font{
+  color:#D32F2F;
+}
+
+.close-position{
+  right:0px;
+}
+
+.admin-view-words-margin{
+  margin:4px;
+}
+
+.admin-addWords-form-header{
+  color: white;
+  background-color:#D32F2F;
+
+}
+
+.admin-addWords-form{
+  padding:8px;
+}
+
+.admin-addWords-form-textInput{
+  font-size: 20px;
+}
+
+.addWords-container{
+  margin-top:15px;
+}
